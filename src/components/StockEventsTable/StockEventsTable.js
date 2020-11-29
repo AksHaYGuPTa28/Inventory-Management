@@ -3,6 +3,7 @@ import StockDetail from '../StockDetail/StockDetail';
 
 function StockEventsTable(props){
   const {products, stockEvents} = props
+console.log(stockEvents);
   return (
     <div className="StockEventTable">
     {products.map(product => {

@@ -42,7 +42,7 @@ class StockDetail extends React.Component{
             <TableCell>Transaction ID</TableCell>
             <TableCell align="right">Type</TableCell>
             <TableCell align="right">Product Name</TableCell>
-            <TableCell align="right">Quantity Sold</TableCell>
+            <TableCell align="right">Quantity</TableCell>
             <TableCell align="right">Supplier</TableCell>
             <TableCell align="right">MOQ</TableCell>
             <TableCell align="right">Lead Time</TableCell>
