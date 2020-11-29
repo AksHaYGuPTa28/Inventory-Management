@@ -1,38 +1,67 @@
-.App {
+* {
+  font-family: helvetica, sans-serif;
+}
+
+.Inventory__main {
+  display: flex;
+}
+
+.Inventory__sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.Inventory__tables {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Inventory__tables>h1 {
+  color: #7c795d;
+  font-family: 'Trocchi', serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 36px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.StockEventTable__Card {
+  margin: 12px 0px;
+  border: 2px solid #eee;
+  padding: 24px;
+  border-radius: 3px;
+}
+
+.StockEventTable__ProductsContainer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.StockDetailsHeadingLow {
+  color: red;
+  font-family: 'Trocchi', serif;
+  cursor: pointer;
+  justify-content: left;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.StockDetailsHeading {
+  font-family: 'Trocchi', serif;
+  cursor: pointer;
+justify-content: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.StockEventTable__Card>p {
+  font-family: 'Trocchi', serif;
+  font-size: 25px;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.StockEventTable__Card>p>span {
+  color: blue;
 }
