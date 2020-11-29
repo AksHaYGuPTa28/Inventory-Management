@@ -38,8 +38,8 @@ class AddProduct extends Component {
         <form onSubmit={this.handleSubmit}>
           <div className="AddProduct__textfield">
             <div style={{ marginBottom: '40px', marginTop: '10px' }}>
-              <TextField style={{ width: 475, marginRight: '40px' }} id="outlined-basic" label="Product Name" onChange={(event) => this.setState({ name: event.target.value })} value={name} variant="outlined" />
-              <TextField style={{ width: 475 }} id="outlined-basic" label="Manufacturer" onChange={(event) => this.setState({ manufacturer: event.target.value })} type="text" name="manufacturer" value={manufacturer} variant="outlined" />
+              <TextField style={{ width: 450, marginRight: '40px' }} id="outlined-basic" label="Product Name" onChange={(event) => this.setState({ name: event.target.value })} value={name} variant="outlined" />
+              <TextField style={{ width: 450 }} id="outlined-basic" label="Manufacturer" onChange={(event) => this.setState({ manufacturer: event.target.value })} type="text" name="manufacturer" value={manufacturer} variant="outlined" />
             </div>
             <div style={{ marginBottom: '40px' }}>
               <TextField style={{ width: 475, marginRight: '40px' }} id="outlined-basic" label="Category" onChange={(event) => this.setState({ category: event.target.value })} type="text" name="category" value={category} variant="outlined" />
